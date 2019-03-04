@@ -1,0 +1,16 @@
+[package]
+name = "rasty"
+version = "0.1.0"
+authors = ["Dominic Bou-Samra <dominic.bou.samra@gmail.com>"]
+edition = "2018"
+
+[lib]
+name = "rastylib"
+path = "src/lib.rs"
+
+[[bin]]
+name = "calculator"
+path = "examples/calculator.rs"
+
+[dependencies]
+colored = "1.7"
